@@ -52,6 +52,7 @@ const src = argv._[0],
         minifyJs: !argv.debug,
         fontMagician: !argv.nofontface,
         lintJs: !argv.nolint,
+        lintCss: !argv.nolint,
         resolve: true,
       }
 
